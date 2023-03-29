@@ -1,6 +1,5 @@
 import java.net.PortUnreachableException;
 
-
 /**
  * do something
  * do something else
@@ -25,13 +24,19 @@ public class Exercise24 {
     }
 
     public void doSomething(int n) {
-        for (int i =1; i <= n; i++);{
-        System.out.println("doSomthing" + " " + i + "times");
-        }}
-    public void doSomething(String thing, int n) {
-        for (int i = 1; i <= n; i++);{
-            System.out.println("do" + thing + " " + i + "times");
+        for (int i = 1; i <= n; i++)
+            
+        {
+            System.out.println("doSomthing" + " " + i + "times");
+        }
     }
+
+    public void doSomething(String thing, int n) {
+        for (int i = 1; i <= n; i++)
+            
+        {
+            System.out.println("do" + thing + " " + i + "times");
+        }
     }
 
     // Code 3 doSomething() methods with same name, but with diff. parameter as
