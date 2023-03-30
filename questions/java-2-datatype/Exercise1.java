@@ -1,10 +1,6 @@
 import javax.swing.event.SwingPropertyChangeSupport;
 import javax.swing.plaf.synth.SynthScrollBarUI;
 
-public class Exercise1{
-
-
-}
 /**
  * Expected Output:
  * 
